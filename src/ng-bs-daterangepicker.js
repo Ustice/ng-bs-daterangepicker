@@ -79,8 +79,6 @@
 						$element.data('daterangepicker').endDate = momentify(ngModel.$modelValue.endDate);
 						$element.data('daterangepicker').updateView();
 						$element.data('daterangepicker').updateCalendars();
-						$element.data('daterangepicker').updateInputText();
-
 					});
 
 					$element.daterangepicker(options, function(start, end, label) {
